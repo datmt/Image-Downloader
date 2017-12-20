@@ -5,7 +5,9 @@ import java.util.prefs.Preferences;
 public class DLPrefs {
 
     public static final String SAVE_LOCATION = "dl_save_location";
-    public static final String PREFS_NAME = "dl_prefs_name";
+    private static final String PREFS_NAME = "dl_prefs_name";
+    public static final String CURRENT_VERSION = "0.0.1";
+
 
     public static Preferences getPrefs()
     {
