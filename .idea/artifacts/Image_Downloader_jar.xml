@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Image-Downloader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Image_Downloader_jar</output-path>
+    <root id="archive" name="Image-Downloader.jar">
+      <element id="module-output" name="Image-Downloader" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/jsoup-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/controlsfx-8.40.14.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/libs/commons-codec-1.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
